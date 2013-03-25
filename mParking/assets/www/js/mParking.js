@@ -23,10 +23,10 @@ function dispositivoListo(){
 	//Inicialización de páginas
 	$('#paginaInicio').on('pageshow', function() {
 		//alert("Estoy en el pageshow de paginaInicio");
-		cargarVehiculosInicio();
+		//cargarVehiculosInicio();
 	} );
 	$('#paginaVehiculos').on( 'pageinit', function() {
-		cargarVehiculosDesdeDB();
+		//cargarVehiculosDesdeDB();
 	} );
 	$('#paginaAgregarVehiculo').on( 'pageshow', function() {
 		$('#ctMatricula').focus();
@@ -37,7 +37,7 @@ function dispositivoListo(){
 		$.mobile.changePage('#paginaAgregarVehiculo');
 	} );
 	$(document).on( 'vclick', '#btnAceptarVehiculo', function() {
-		agregarVehiculo();
+		//agregarVehiculo();
 	} );
 }
 
